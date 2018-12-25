@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchItunesMusicCell" rowHeight="44" id="fFO-eC-VRx" customClass="SearchItunesMusicCell" customModule="iTunesSearchExample">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fFO-eC-VRx" id="SCa-xr-uEt">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iOU-kb-Lte">
+                        <rect key="frame" x="16" y="2" width="40" height="39.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="5hz-25-IZM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkT-RR-X6K">
+                        <rect key="frame" x="71" y="11.5" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WkT-RR-X6K" firstAttribute="centerY" secondItem="SCa-xr-uEt" secondAttribute="centerY" id="AS5-3r-Q00"/>
+                    <constraint firstItem="iOU-kb-Lte" firstAttribute="top" secondItem="SCa-xr-uEt" secondAttribute="top" constant="2" id="Ua2-nI-tJ3"/>
+                    <constraint firstItem="iOU-kb-Lte" firstAttribute="leading" secondItem="SCa-xr-uEt" secondAttribute="leading" constant="16" id="Ufk-lk-xxC"/>
+                    <constraint firstItem="WkT-RR-X6K" firstAttribute="leading" secondItem="iOU-kb-Lte" secondAttribute="trailing" constant="15" id="Uv4-X2-4tY"/>
+                    <constraint firstItem="iOU-kb-Lte" firstAttribute="centerY" secondItem="SCa-xr-uEt" secondAttribute="centerY" id="Ywd-Ji-I7B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistImageView" destination="iOU-kb-Lte" id="zKs-99-pcw"/>
+                <outlet property="artistTitleLabel" destination="WkT-RR-X6K" id="K3Y-Tm-SRX"/>
+            </connections>
+            <point key="canvasLocation" x="63.200000000000003" y="73.763118440779621"/>
+        </tableViewCell>
+    </objects>
+</document>

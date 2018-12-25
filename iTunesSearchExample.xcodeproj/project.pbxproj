@@ -14,6 +14,37 @@
 		DECF0BBD21CDDDBF00AD4B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECF0BBB21CDDDBF00AD4B8D /* LaunchScreen.storyboard */; };
 		DECF0BC821CDDDBF00AD4B8D /* iTunesSearchExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0BC721CDDDBF00AD4B8D /* iTunesSearchExampleTests.swift */; };
 		DECF0BD321CDDDBF00AD4B8D /* iTunesSearchExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0BD221CDDDBF00AD4B8D /* iTunesSearchExampleUITests.swift */; };
+		DECF0BE121CDDE8C00AD4B8D /* SearchItunesMusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0BE021CDDE8C00AD4B8D /* SearchItunesMusicViewModel.swift */; };
+		DECF0BE521CDE04300AD4B8D /* SearchItunesMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0BE421CDE04300AD4B8D /* SearchItunesMusicCell.swift */; };
+		DECF0BE721CDE05100AD4B8D /* SearchItunesMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECF0BE621CDE05100AD4B8D /* SearchItunesMusicCell.xib */; };
+		DECF0C0221CDE50300AD4B8D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C0121CDE50300AD4B8D /* CFNetwork.framework */; };
+		DECF0C0421CDE50900AD4B8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C0321CDE50900AD4B8D /* SystemConfiguration.framework */; };
+		DECF0C2521CDE5C200AD4B8D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C1D21CDE5C100AD4B8D /* RxCocoa.framework */; };
+		DECF0C2621CDE5C200AD4B8D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C1E21CDE5C100AD4B8D /* Result.framework */; };
+		DECF0C2721CDE5C200AD4B8D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C1F21CDE5C100AD4B8D /* RxSwift.framework */; };
+		DECF0C2821CDE5C200AD4B8D /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2021CDE5C100AD4B8D /* Moya.framework */; };
+		DECF0C2A21CDE5C200AD4B8D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2221CDE5C200AD4B8D /* Alamofire.framework */; };
+		DECF0C2B21CDE5C200AD4B8D /* ReactiveMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2321CDE5C200AD4B8D /* ReactiveMoya.framework */; };
+		DECF0C2C21CDE5C200AD4B8D /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2421CDE5C200AD4B8D /* RxMoya.framework */; };
+		DECF0C2E21CDE5CC00AD4B8D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2221CDE5C200AD4B8D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3021CDE5CC00AD4B8D /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2021CDE5C100AD4B8D /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3221CDE5CC00AD4B8D /* ReactiveMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2321CDE5C200AD4B8D /* ReactiveMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3321CDE5CD00AD4B8D /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2121CDE5C100AD4B8D /* ReactiveSwift.framework */; };
+		DECF0C3421CDE5CD00AD4B8D /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2121CDE5C100AD4B8D /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3621CDE5CD00AD4B8D /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C1E21CDE5C100AD4B8D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3821CDE5CD00AD4B8D /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C1D21CDE5C100AD4B8D /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3A21CDE5CD00AD4B8D /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C2421CDE5C200AD4B8D /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3C21CDE5CD00AD4B8D /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C1F21CDE5C100AD4B8D /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C3E21CDE69800AD4B8D /* iTunesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0C3D21CDE69800AD4B8D /* iTunesApi.swift */; };
+		DECF0C4221CDEA7800AD4B8D /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0C4121CDEA7800AD4B8D /* Action.swift */; };
+		DECF0C4421CDFCD200AD4B8D /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C4321CDFCD200AD4B8D /* RxAtomic.framework */; };
+		DECF0C4621CDFCD600AD4B8D /* RxAtomic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C4321CDFCD200AD4B8D /* RxAtomic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C4821CE076100AD4B8D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0C4721CE076100AD4B8D /* Error.swift */; };
+		DECF0C4A21CE099C00AD4B8D /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0C4921CE099C00AD4B8D /* Functions.swift */; };
+		DECF0C4C21CE12E400AD4B8D /* SongResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0C4B21CE12E400AD4B8D /* SongResult.swift */; };
+		DECF0C5221CE33BD00AD4B8D /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C5021CE33B800AD4B8D /* SDWebImage.framework */; };
+		DECF0C5321CE33BD00AD4B8D /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DECF0C5021CE33B800AD4B8D /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DECF0C5521CF43FA00AD4B8D /* playerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF0C5421CF43FA00AD4B8D /* playerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +64,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DECF0BFF21CDE4B500AD4B8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DECF0C5321CE33BD00AD4B8D /* SDWebImage.framework in Embed Frameworks */,
+				DECF0C3821CDE5CD00AD4B8D /* RxCocoa.framework in Embed Frameworks */,
+				DECF0C3021CDE5CC00AD4B8D /* Moya.framework in Embed Frameworks */,
+				DECF0C2E21CDE5CC00AD4B8D /* Alamofire.framework in Embed Frameworks */,
+				DECF0C3621CDE5CD00AD4B8D /* Result.framework in Embed Frameworks */,
+				DECF0C3C21CDE5CD00AD4B8D /* RxSwift.framework in Embed Frameworks */,
+				DECF0C3221CDE5CC00AD4B8D /* ReactiveMoya.framework in Embed Frameworks */,
+				DECF0C3A21CDE5CD00AD4B8D /* RxMoya.framework in Embed Frameworks */,
+				DECF0C3421CDE5CD00AD4B8D /* ReactiveSwift.framework in Embed Frameworks */,
+				DECF0C4621CDFCD600AD4B8D /* RxAtomic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DECF0BAF21CDDDBE00AD4B8D /* iTunesSearchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECF0BB221CDDDBE00AD4B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +101,27 @@
 		DECF0BCE21CDDDBF00AD4B8D /* iTunesSearchExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesSearchExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECF0BD221CDDDBF00AD4B8D /* iTunesSearchExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSearchExampleUITests.swift; sourceTree = "<group>"; };
 		DECF0BD421CDDDBF00AD4B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECF0BE021CDDE8C00AD4B8D /* SearchItunesMusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItunesMusicViewModel.swift; sourceTree = "<group>"; };
+		DECF0BE421CDE04300AD4B8D /* SearchItunesMusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItunesMusicCell.swift; sourceTree = "<group>"; };
+		DECF0BE621CDE05100AD4B8D /* SearchItunesMusicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchItunesMusicCell.xib; sourceTree = "<group>"; };
+		DECF0C0121CDE50300AD4B8D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DECF0C0321CDE50900AD4B8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DECF0C1D21CDE5C100AD4B8D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		DECF0C1E21CDE5C100AD4B8D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		DECF0C1F21CDE5C100AD4B8D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		DECF0C2021CDE5C100AD4B8D /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		DECF0C2121CDE5C100AD4B8D /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		DECF0C2221CDE5C200AD4B8D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DECF0C2321CDE5C200AD4B8D /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/iOS/ReactiveMoya.framework; sourceTree = "<group>"; };
+		DECF0C2421CDE5C200AD4B8D /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		DECF0C3D21CDE69800AD4B8D /* iTunesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesApi.swift; sourceTree = "<group>"; };
+		DECF0C4121CDEA7800AD4B8D /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		DECF0C4321CDFCD200AD4B8D /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
+		DECF0C4721CE076100AD4B8D /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		DECF0C4921CE099C00AD4B8D /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		DECF0C4B21CE12E400AD4B8D /* SongResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResult.swift; sourceTree = "<group>"; };
+		DECF0C5021CE33B800AD4B8D /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		DECF0C5421CF43FA00AD4B8D /* playerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +129,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECF0C4421CDFCD200AD4B8D /* RxAtomic.framework in Frameworks */,
+				DECF0C2521CDE5C200AD4B8D /* RxCocoa.framework in Frameworks */,
+				DECF0C3321CDE5CD00AD4B8D /* ReactiveSwift.framework in Frameworks */,
+				DECF0C2621CDE5C200AD4B8D /* Result.framework in Frameworks */,
+				DECF0C2721CDE5C200AD4B8D /* RxSwift.framework in Frameworks */,
+				DECF0C2821CDE5C200AD4B8D /* Moya.framework in Frameworks */,
+				DECF0C2A21CDE5C200AD4B8D /* Alamofire.framework in Frameworks */,
+				DECF0C2B21CDE5C200AD4B8D /* ReactiveMoya.framework in Frameworks */,
+				DECF0C5221CE33BD00AD4B8D /* SDWebImage.framework in Frameworks */,
+				DECF0C2C21CDE5C200AD4B8D /* RxMoya.framework in Frameworks */,
+				DECF0C0421CDE50900AD4B8D /* SystemConfiguration.framework in Frameworks */,
+				DECF0C0221CDE50300AD4B8D /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +168,7 @@
 				DECF0BC621CDDDBF00AD4B8D /* iTunesSearchExampleTests */,
 				DECF0BD121CDDDBF00AD4B8D /* iTunesSearchExampleUITests */,
 				DECF0BB021CDDDBE00AD4B8D /* Products */,
+				DECF0C0021CDE50300AD4B8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +185,10 @@
 		DECF0BB121CDDDBE00AD4B8D /* iTunesSearchExample */ = {
 			isa = PBXGroup;
 			children = (
+				DECF0C4F21CE2E4A00AD4B8D /* ViewModel */,
+				DECF0C4E21CE2E4400AD4B8D /* Model */,
+				DECF0C4D21CE2E3E00AD4B8D /* View */,
 				DECF0BB221CDDDBE00AD4B8D /* AppDelegate.swift */,
-				DECF0BB421CDDDBE00AD4B8D /* ViewController.swift */,
-				DECF0BB621CDDDBE00AD4B8D /* Main.storyboard */,
 				DECF0BB921CDDDBF00AD4B8D /* Assets.xcassets */,
 				DECF0BBB21CDDDBF00AD4B8D /* LaunchScreen.storyboard */,
 				DECF0BBE21CDDDBF00AD4B8D /* Info.plist */,
@@ -125,6 +214,57 @@
 			path = iTunesSearchExampleUITests;
 			sourceTree = "<group>";
 		};
+		DECF0C0021CDE50300AD4B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DECF0C5021CE33B800AD4B8D /* SDWebImage.framework */,
+				DECF0C4321CDFCD200AD4B8D /* RxAtomic.framework */,
+				DECF0C2221CDE5C200AD4B8D /* Alamofire.framework */,
+				DECF0C2021CDE5C100AD4B8D /* Moya.framework */,
+				DECF0C2321CDE5C200AD4B8D /* ReactiveMoya.framework */,
+				DECF0C2121CDE5C100AD4B8D /* ReactiveSwift.framework */,
+				DECF0C1E21CDE5C100AD4B8D /* Result.framework */,
+				DECF0C1D21CDE5C100AD4B8D /* RxCocoa.framework */,
+				DECF0C2421CDE5C200AD4B8D /* RxMoya.framework */,
+				DECF0C1F21CDE5C100AD4B8D /* RxSwift.framework */,
+				DECF0C0321CDE50900AD4B8D /* SystemConfiguration.framework */,
+				DECF0C0121CDE50300AD4B8D /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECF0C4D21CE2E3E00AD4B8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DECF0BB621CDDDBE00AD4B8D /* Main.storyboard */,
+				DECF0BB421CDDDBE00AD4B8D /* ViewController.swift */,
+				DECF0BE421CDE04300AD4B8D /* SearchItunesMusicCell.swift */,
+				DECF0BE621CDE05100AD4B8D /* SearchItunesMusicCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DECF0C4E21CE2E4400AD4B8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DECF0C4721CE076100AD4B8D /* Error.swift */,
+				DECF0C4921CE099C00AD4B8D /* Functions.swift */,
+				DECF0C4121CDEA7800AD4B8D /* Action.swift */,
+				DECF0C4B21CE12E400AD4B8D /* SongResult.swift */,
+				DECF0C3D21CDE69800AD4B8D /* iTunesApi.swift */,
+				DECF0C5421CF43FA00AD4B8D /* playerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DECF0C4F21CE2E4A00AD4B8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DECF0BE021CDDE8C00AD4B8D /* SearchItunesMusicViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +275,7 @@
 				DECF0BAB21CDDDBE00AD4B8D /* Sources */,
 				DECF0BAC21CDDDBE00AD4B8D /* Frameworks */,
 				DECF0BAD21CDDDBE00AD4B8D /* Resources */,
+				DECF0BFF21CDE4B500AD4B8D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECF0BBD21CDDDBF00AD4B8D /* LaunchScreen.storyboard in Resources */,
+				DECF0BE721CDE05100AD4B8D /* SearchItunesMusicCell.xib in Resources */,
 				DECF0BBA21CDDDBF00AD4B8D /* Assets.xcassets in Resources */,
 				DECF0BB821CDDDBE00AD4B8D /* Main.storyboard in Resources */,
 			);
@@ -256,8 +398,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECF0C5521CF43FA00AD4B8D /* playerModel.swift in Sources */,
+				DECF0BE121CDDE8C00AD4B8D /* SearchItunesMusicViewModel.swift in Sources */,
 				DECF0BB521CDDDBE00AD4B8D /* ViewController.swift in Sources */,
+				DECF0C4C21CE12E400AD4B8D /* SongResult.swift in Sources */,
+				DECF0C4A21CE099C00AD4B8D /* Functions.swift in Sources */,
+				DECF0C3E21CDE69800AD4B8D /* iTunesApi.swift in Sources */,
 				DECF0BB321CDDDBE00AD4B8D /* AppDelegate.swift in Sources */,
+				DECF0C4221CDEA7800AD4B8D /* Action.swift in Sources */,
+				DECF0C4821CE076100AD4B8D /* Error.swift in Sources */,
+				DECF0BE521CDE04300AD4B8D /* SearchItunesMusicCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +584,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7U3W23B5D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iTunesSearchExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +607,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7U3W23B5D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iTunesSearchExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
